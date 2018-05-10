@@ -3823,7 +3823,7 @@ p > object:only-child {
 	body.page-two-column:not(.archive) #primary .entry-header,
 	body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
 		float: left;
-		width: 36%;
+		width: 100%;
 	}
 
 	.blog:not(.has-sidebar) #primary article,
@@ -3834,7 +3834,7 @@ p > object:only-child {
 	body.page-two-column:not(.archive) #primary .entry-content,
 	body.page-two-column #comments {
 		float: right;
-		width: 58%;
+		width: 100%;
 	}
 
 	.blog .site-main > article,
