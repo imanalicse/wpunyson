@@ -9,7 +9,7 @@ $options = array(
 		'type'  => 'text',
 	),
 	'sliders' => array(
-		'label'         => __( 'Sliders', 'fw' ),
+		'label'         => __( 'Slides', 'fw' ),
 		'popup-title'   => __( 'Add/Edit Slider', 'fw' ),
 		'desc'          => __( 'Here you can add, remove and edit your Sliders.', 'fw' ),
 		'type'          => 'addable-popup',
@@ -36,5 +36,26 @@ $options = array(
 				'type'  => 'text'
 			)
 		)
-	)
+	),
+	'next_prev_control'         => array(
+		'label' => __( 'Next prev control', 'fw' ),
+		'type'  => 'checkbox',
+		'value' => true,
+	),
+	'pagination'         => array(
+		'label' => __( 'Pagination', 'fw' ),
+		'type'  => 'checkbox',
+		'value' => true,
+	),
+	'auto_play'         => array(
+		'label' => __( 'Auto Play', 'fw' ),
+		'type'  => 'checkbox',
+		'value' => true,
+	),
+	'max_slides'         => array(
+		'label' => __( 'Max slide', 'fw' ),
+		'type'  => 'text',
+		'value' => 1,
+	),
+
 );
